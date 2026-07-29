@@ -1,0 +1,104 @@
+name: Pesquisa ou validação
+description: Registrar uma hipótese, pesquisa ou teste com usuários
+title: "[PESQUISA] "
+labels:
+  - research
+body:
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Pergunta de pesquisa
+      description: O que precisamos descobrir?
+    validations:
+      required: true
+
+  - type: textarea
+    id: hipotese
+    attributes:
+      label: Hipótese
+      description: O que acreditamos atualmente?
+      placeholder: Acreditamos que...
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Que decisão do produto depende dessa pesquisa?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: metodo
+    attributes:
+      label: Método
+      options:
+        - Entrevista
+        - Formulário
+        - Teste de usabilidade
+        - Análise de dados
+        - Pesquisa documental
+        - Benchmark
+        - Experimento
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: participantes
+    attributes:
+      label: Público ou participantes
+      description: Quem deverá participar ou ser analisado?
+
+  - type: textarea
+    id: procedimento
+    attributes:
+      label: Procedimento
+      placeholder: |
+        1. Preparar roteiro
+        2. Recrutar participantes
+        3. Aplicar pesquisa
+        4. Analisar resultados
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências esperadas
+      description: Que informações permitirão aceitar ou rejeitar a hipótese?
+    validations:
+      required: true
+
+  - type: textarea
+    id: etica
+    attributes:
+      label: Privacidade e cuidados éticos
+      description: Existem dados pessoais, consentimento ou riscos envolvidos?
+
+  - type: input
+    id: responsavel
+    attributes:
+      label: Responsável
+      placeholder: "@usuario"
+    validations:
+      required: true
+
+  - type: input
+    id: prazo
+    attributes:
+      label: Prazo
+      placeholder: "DD/MM/AAAA"
+
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado
+      description: Preencher após a pesquisa.
+
+  - type: textarea
+    id: decisao
+    attributes:
+      label: Decisão gerada
+      description: O que será mantido, alterado ou descartado com base no resultado?

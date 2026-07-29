@@ -1,0 +1,75 @@
+name: Bug
+description: Informar comportamento incorreto na aplicação
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: O que está acontecendo?
+    validations:
+      required: true
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Acessar...
+        2. Clicar em...
+        3. Preencher...
+        4. Observar...
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: atual
+    attributes:
+      label: Comportamento atual
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ambiente
+    attributes:
+      label: Ambiente
+      options:
+        - Desenvolvimento
+        - Homologação
+        - Produção
+        - Protótipo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade
+      options:
+        - Crítica
+        - Alta
+        - Média
+        - Baixa
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Screenshots, vídeos, logs ou mensagens de erro.
+
+  - type: textarea
+    id: contexto_tecnico
+    attributes:
+      label: Contexto técnico
+      description: Navegador, dispositivo, versão, rota ou informações relevantes.

@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Discussões do projeto
+    url: ../../discussions
+    about: Use as discussões para ideias, dúvidas e propostas que ainda não se tornaram tarefas.

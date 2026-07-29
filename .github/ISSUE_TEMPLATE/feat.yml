@@ -1,0 +1,108 @@
+name: Tarefa
+description: Criar uma atividade executável do projeto
+title: "[TAREFA] "
+labels:
+  - task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para atividades com resultado e critério de conclusão definidos.
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qual resultado esta tarefa deve produzir?
+      placeholder: Descreva o resultado esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Por que esta tarefa é necessária?
+    validations:
+      required: true
+
+  - type: textarea
+    id: escopo
+    attributes:
+      label: Escopo
+      description: O que precisa ser feito?
+      placeholder: |
+        - Item 1
+        - Item 2
+        - Item 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceite
+      description: Como saberemos que a tarefa foi concluída?
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+        - [ ] Documento revisado
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frente
+    attributes:
+      label: Frente
+      options:
+        - Produto
+        - Tecnologia
+        - Front-end
+        - Back-end
+        - UX
+        - Pesquisa
+        - Dados e impacto
+        - Negócio
+        - Centelha
+        - Documentação
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Crítica
+        - Alta
+        - Média
+        - Baixa
+    validations:
+      required: true
+
+  - type: input
+    id: responsavel
+    attributes:
+      label: Responsável sugerido
+      placeholder: "@usuario"
+    validations:
+      required: true
+
+  - type: input
+    id: prazo
+    attributes:
+      label: Prazo
+      placeholder: "DD/MM/AAAA"
+
+  - type: textarea
+    id: dependencias
+    attributes:
+      label: Dependências
+      description: Existe outra tarefa ou decisão que precisa acontecer antes?
+      placeholder: "#123 ou nenhuma"
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Referências
+      description: Links, documentos, páginas da Wiki ou discussões relacionadas.
