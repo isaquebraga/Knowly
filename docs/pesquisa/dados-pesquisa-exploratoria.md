@@ -108,7 +108,7 @@ Das 61 respostas, 23 incluíram comentários na seção aberta; destas, 14 apres
 
 Com base nos dados coletados, é possível afirmar, dentro dos limites desta amostra, que:
 
-1. Há validação inicial da proposta central do produto — os estudantes reconhecem valor em uma ferramenta voltada à organização e à constância nos estudos.
+1. Há validação inicial da proposta central do produto: os estudantes reconhecem valor em uma ferramenta voltada à organização e à constância nos estudos.
 2. A métrica de comparação por volume de horas estudadas é amplamente percebida como injusta, o que sustenta a adoção de um índice de constância contextual baseado em metas pessoais e evolução individual.
 3. Mecanismos de ranking são aceitos pela maioria, desde que fundamentados no cumprimento de metas pessoais, e não em comparação direta de desempenho bruto entre usuários.
 4. A ausência de registro estruturado de metas é uma prática comum entre os respondentes, reforçando a oportunidade de valor de uma ferramenta de acompanhamento.
