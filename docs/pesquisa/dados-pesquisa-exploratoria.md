@@ -91,7 +91,11 @@ Os principais fatores de desmotivação identificados, em ordem de relevância, 
 
 ### 2.4 Comunidade e Funcionalidades
 
+<img width="3021" height="872" alt="Pesquisa Exploratória - 04" src="https://github.com/user-attachments/assets/0b9433c5-5442-44aa-8dfb-5f96c5ac8271" />
+
 Os elementos mais associados à utilidade de uma comunidade de estudos foram: encontrar pessoas com objetivos semelhantes, possibilidade de troca de materiais e dúvidas, e existência de metas coletivas.
+
+<img width="1511" height="425" alt="Pesquisa Exploratória  (respostas) - Dashboard (5)_page-0001" src="https://github.com/user-attachments/assets/b73278aa-dff5-4f72-97c8-db89ccb5724c" />
 
 Quanto às funcionalidades, foram consideradas **essenciais**: resumo de evolução pessoal ao final do ciclo, sistema de XP/níveis/badges, e metas coletivas do grupo. Foram frequentemente classificadas como **dispensáveis**: validação de registros por colegas e rankings dentro da comunidade. A funcionalidade de registro por timer apresentou divisão de opiniões.
 
