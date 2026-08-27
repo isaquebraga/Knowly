@@ -15,7 +15,7 @@ SAILER, M.; HOMNER, L. The gamification of learning: a meta-analysis. Educationa
 
 **Objetivo do estudo:** Estimar os efeitos da gamificação sobre resultados cognitivos, motivacionais e comportamentais de aprendizagem e identificar condições moderadoras.
 
-**Principais resultados e conceitos:** Efeitos positivos significativos, de magnitude pequena a moderada, nos três domínios de resultados (cognitivo — g em torno de 0,49; motivacional — g em torno de 0,36; comportamental — g em torno de 0,25; valores a confirmar na leitura integral). A análise de moderadores indica que o desenho importa: em particular, arranjos de competição colaborativa (competir em equipes que cooperam internamente) associam-se a melhores resultados comportamentais do que competição puramente individual.
+**Principais resultados e conceitos:** Efeitos positivos significativos, de magnitude pequena a moderada, nos três domínios de resultados (cognitivo, motivacional e comportamental). A análise de moderadores indica que o desenho importa: em particular, arranjos de competição colaborativa (competir em equipes que cooperam internamente) associam-se a melhores resultados comportamentais do que competição puramente individual.
 
 **Relação com o Knowly / ICA:** Síntese quantitativa que sustenta o impacto potencial da abordagem, com um achado diretamente aproveitável: a superioridade da competição colaborativa fundamenta as metas coletivas e a dimensão de participação comunitária do ICA, nas quais a comunidade coopera em vez de apenas competir. Referência central para a seção de impacto da proposta.
 
